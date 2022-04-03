@@ -9,19 +9,19 @@
         <link rel="stylesheet" href="./src/style.css">
         <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script>
     </head>
-    <body>
-        <nav class="navbar is-info">
+    <body class="has-navbar-fixed-top">
+        <nav class="navbar is-fixed-top is-info">
             <div class="navbar-brand">
                 <a class="navbar-item" href="#">
                     <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
                 </a>
-                <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                <div class="navbar-burger burger" data-target="menu">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
             </div>
-            <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div id="menu" class="navbar-menu">
                 <div class="navbar-start is-link">
                     <a class="navbar-item" href="https://github.com/BulmaTemplates/bulma-templates">
                         ホーム
@@ -100,7 +100,7 @@
                     </h2>
                 </div>
             </div>
-            <div class="tabs is-boxed is-centered main-menu" id="nav">
+            <div class="tabs is-boxed is-centered is-fullwidth main-menu" id="nav">
                 <ul>
                     <li data-target="pane-1" id="1">
                         <a>
@@ -255,11 +255,35 @@
                     </p>
                 </div>
             </div>
-            <div class="block">
-                <h2 class="subtitle">弊社について</h2>
-                <p>会社概要</p>
-                <p>採用情報</p>
-                <p>プレスリリース</p>
+            <div class="columns">
+                <div class="column is-3">
+                    <p class="subtitle">
+                        <a>弊社について</a>
+                    </p>
+                    <p class="footer-subtext">
+                        <a>会社概要</a>
+                    </p>
+                    <p class="footer-subtext">
+                        <a>採用情報</a>
+                    </p>
+                    <p class="footer-subtext">
+                        <a>プレスリリース</a>
+                    </p>
+                </div>
+                <div class="column is-3">
+                    <p class="subtitle">
+                        <a>Blog</a>
+                    </p>
+                    <p class="footer-subtext">
+                        <a>aaaa</a>
+                    </p>
+                    <p class="footer-subtext">
+                        <a>iiii</a>
+                    </p>
+                    <p class="footer-subtext">
+                        <a>uuuuu</a>
+                    </p>
+                </div>
             </div>
         </div>
         <div class="has-text-centered">
